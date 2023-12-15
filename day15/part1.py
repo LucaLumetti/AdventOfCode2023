@@ -1,10 +1,4 @@
 import sys
-import re
-
-rx = re.compile(r'\d+')
-
-def T(g):
-    return list(map(list, zip(*g)))
 
 x = sys.stdin.read().strip().replace('\n','').split(',')
 
