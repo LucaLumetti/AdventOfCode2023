@@ -1,11 +1,4 @@
 import sys
-import re
-import time
-
-rx = re.compile(r'\d+')
-
-def T(g):
-    return list(map(list, zip(*g)))
 
 grid = sys.stdin.read().strip().split('\n')
 grid = [list(g) for g in grid]
